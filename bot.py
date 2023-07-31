@@ -27,7 +27,7 @@ def buyruq(update, context):
 
 
 
-updater = Updater(token="6112868019:AAHwGOfVnclWVim7vVO6Ys-uBP95mlyV9i4")
+updater = Updater(token="YOUR TOKEN")
 dispatcher = updater.dispatcher
 dispatcher.add_handler(CommandHandler('start', start))
 dispatcher.add_handler(CommandHandler('restart', start))
